@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.app-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  height: 700px;
+  width: 700px;
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 50px;
+}
+.logo-name-container {
+  display: flex;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  text-align: center;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 38px;
+  margin-left: 40px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.your-balance {
+  color: #585076;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 50px;
+  margin-top: 0px;
+}
+.rupees-message {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 500;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.value-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
